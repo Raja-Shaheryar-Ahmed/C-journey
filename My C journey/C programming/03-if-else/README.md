@@ -16,11 +16,11 @@ Decision making in C using `if`, `else if`, and `else`, along with nested condit
 | `vowel_consonant.c` | Checks whether a letter is a vowel or consonant. | `ctype.h`, `isalpha`, `tolower` |
 | `triangle_classifier.c` | Validates three sides and classifies the triangle. | `&&`, `\|\|` |
 | `coordinate_quadrant.c` | Finds where a point lies: origin, axis, or quadrant. | nested `if` |
-| `ticket_pricing.c` | Calculates a ticket price from age and weekend surcharge. | `else if`, multiple checks |
+| `ticket_pricing.c` | Calculates a ticket price from age and a weekend surcharge. | `else if`, multiple checks |
 | `online_shopping_discount.c` | Applies discounts, shipping fees, and a Prime perk to a cart total. | nested `if` |
 | `atm_withdrawal.c` | Verifies a PIN, then checks amount, balance, and daily limit. | deeply nested `if` |
 | `scholarship_eligibility.c` | Decides scholarship level from score, income, and attendance. | deeply nested `if` |
-| `blood_donation_eligibility.c` | Checks blood donation eligibility using if-else conditions. | `if-else` |
+| `blood_donation_eligibility.c` | Screens a blood donor on age, weight, hemoglobin level, and recent illness. | `&&`, nested `if` |
 
 ## 🧠 Program Details
 
@@ -197,7 +197,25 @@ Status: APPROVED for Full Scholarship (100% tuition waiver)!
 ```
 
 #### blood_donation_eligibility.c
-Checks whether a person can donate blood by testing the entered details with `if-else` conditions.
+A donor screening program. Each check only runs if the one before it passes, and the program asks for each value only when it's needed.
+
+| Step | Condition to continue | If it fails |
+|---|---|---|
+| 1. Age | Between 18 and 65 | `Deferred: Age must be between 18 and 65 years old.` |
+| 2. Weight | At least 50 kg | `Deferred: Weight is below the minimum requirement of 50 kg.` |
+| 3. Hemoglobin | At least 12.5 g/dL | `Deferred: Hemoglobin level is too low (minimum 12.5 required).` |
+| 4. Recent illness or medication (last 3 months) | `0` (No) | `Deferred: You cannot donate due to recent illness/medication history.` |
+
+```
+--- Blood Donation Eligibility Screener ---
+Enter your age: 25
+Enter your weight in kg: 60
+Enter your hemoglobin level (g/dL): 13.5
+Have you had any major illness or medication in the last 3 months? (1 for Yes, 0 for No): 0
+Congratulations! You are ELIGIBLE to donate blood.
+```
+
+**Concepts:** four-level nesting, `&&` for a range check, `scanf` with `%d` and `%f`, `float` comparison
 
 ## 📌 Key Concepts
 
