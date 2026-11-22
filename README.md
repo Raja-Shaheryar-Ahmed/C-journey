@@ -9,7 +9,7 @@ My learning journey in **C programming**, from the first `Hello, World!` to poin
 | [C programming](My%20C%20journey/C%20programming/) | Topic-wise practice in 10 topic folders: basics, data types, `if-else`, nested `if-else`, loops, nested loops, `switch`, functions, pointers, arrays | 108 |
 | [C Lab Tasks](My%20C%20journey/C%20Lab%20Tasks/) | Solved Programming Fundamentals lab tasks (Labs 2 to 9), each lab with its own README | 51 |
 | [C Competitive exam questions](My%20C%20journey/C%20Competitive%20exam%20questions/) | Exam-style problems with exact input and output formats, from easy to harder | 13 |
-| [C projects](My%20C%20journey/C%20projects/) | ATM system, Tic Tac Toe, Student Marks Manager, Quiz Game and a dynamic grade calculator | 5 |
+| [C projects](My%20C%20journey/C%20projects/) | ATM system, Tic Tac Toe, Student Marks Manager, Quiz Game, Inventory Management, Dynamic Contact Manager, Mini Command Interpreter and a dynamic grade calculator | 8 |
 
 ## 🗺️ Topics Covered
 
@@ -23,7 +23,8 @@ My learning journey in **C programming**, from the first `Hello, World!` to poin
 | Pointers and pass by reference | `C programming/09-pointers`, Lab 8 |
 | Arrays, searching and sorting | `C programming/10-arrays`, Lab 9 |
 | Putting it all together | `C projects`, `C Competitive exam questions` |
-| Dynamic memory (`malloc`) | `C projects/Dynamic_Grade_Calculator.c` |
+| Dynamic memory (`malloc`, `realloc`, `free`) | `C projects/Dynamic_Contact_Manager`, `C projects/Dynamic_Grade_Calculator.c` |
+| Function pointers | `C projects/Mini_Command_Interpreter` |
 
 ## 🛠️ How to Run Any Program
 
