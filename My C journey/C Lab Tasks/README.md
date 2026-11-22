@@ -11,8 +11,11 @@ Solved lab tasks from the **Programming Fundamentals** course, BS Artificial Int
 | Lab 4 | Conditional statements (`if`, `else if`, nested `if`) | 6 | [Programming Fundamental Lab 4](Programming%20Fundamental%20Lab%204/) |
 | Lab 5 | Loops (`for`, `while`, `do-while`), menu-driven programs | 5 | [Programming Fundamental Lab 5](Programming%20Fundamental%20Lab%205/) |
 | Lab 6 | Nested loops, pattern printing, series, perfect numbers | 4 | [Programming Fundamental Lab 6](Programming%20Fundamental%20Lab%206/) |
+| Lab 7 | Functions, prototypes, return values, `math.h`, menu-driven programs | 6 | [Programming Fundamental Lab 7](Programming%20Fundamental%20Lab%207/) |
+| Lab 8 | Pointers, pass by reference, multiple results through pointer parameters | 6 | [Programming Fundamental Lab 8](Programming%20Fundamental%20Lab%208/) |
+| Lab 9 | 1D arrays, searching, min/max, shifting, duplicate detection, sorting | 6 | [Programming Fundamental Lab 9](Programming%20Fundamental%20Lab%209/) |
 
-**Total:** 33 programs across 5 labs.
+**Total:** 51 programs across 8 labs.
 
 ## 📁 Folder Structure
 
@@ -23,6 +26,9 @@ C Lab Tasks/
 ├── Programming Fundamental Lab 4/
 ├── Programming Fundamental Lab 5/
 ├── Programming Fundamental Lab 6/
+├── Programming Fundamental Lab 7/
+├── Programming Fundamental Lab 8/
+├── Programming Fundamental Lab 9/
 └── README.md
 ```
 
