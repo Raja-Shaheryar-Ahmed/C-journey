@@ -8,18 +8,19 @@ int main(){
 	printf("Enter 3rd number: ");
 	scanf("%d",&c);
 	
-	if(a>b){
-		if(a>c){
+	if(a>=b){
+		if(a>=c){
 			printf("\nThe largest is %d",a);
 		}
-	}
-	if(b>a){
-		if(b>c){
-			printf("\nThe largest is %d",b);
+		else{
+			printf("\nThe largest is %d",c);
 		}
 	}
-	if(c>b){
-		if(c>b){
+	else{
+		if(b>=c){
+			printf("\nThe largest is %d",b);
+		}
+		else{
 			printf("\nThe largest is %d",c);
 		}
 	}

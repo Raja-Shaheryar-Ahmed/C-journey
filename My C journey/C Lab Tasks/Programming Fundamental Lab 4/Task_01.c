@@ -9,7 +9,7 @@ int main(){
 	scanf("%f",&height);
 	BMI = weight/(height*height);
 	
-	printf("\nBMI = %.2f",BMI);
+	printf("\nBMI = %.2f\n",BMI);
 	if(BMI<18.5){
 		printf("Category: Underweight\n");
 	}
@@ -22,4 +22,5 @@ int main(){
 	else{
 		printf("Category: Obese\n");
 	}
+	return 0;
 }

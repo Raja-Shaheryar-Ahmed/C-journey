@@ -2,7 +2,7 @@
 int main(){
 	int runs[6];
 	int total_runs=0,i;
-	int best;
+	int best=0;
 	float run_rate;
 	for(i=0;i<6;i++){
 		printf("\nRun in over %d: ",i+1);

@@ -16,9 +16,9 @@ int main(){
 	printf("\nEnter grade: ");
 	scanf(" %c",&grade);
 	printf("\nage = %d\tvia pointers = %d\t&age = %p\t\t\tpAge = %p",age,*ptr_age,&age,ptr_age);
-	printf("\ncgpa = %d\tvia pointers = %d\t&cgpa = %p\t\tpCgpa = %p",cgpa,*ptr_cgpa,&cgpa,ptr_cgpa);
-	printf("\ngarde = %d\tvia pointers = %d\t&garde = %p\t\tpGrade = %p",grade,*ptr_grade,&grade,ptr_grade);
-	printf("\n&pAge = %p\t&pCgpa = %p\t&pGrade = %p",ptr_age,ptr_cgpa,ptr_grade);
+	printf("\ncgpa = %.2f\tvia pointers = %.2f\t&cgpa = %p\t\tpCgpa = %p",cgpa,*ptr_cgpa,&cgpa,ptr_cgpa);
+	printf("\ngrade = %c\tvia pointers = %c\t&grade = %p\t\tpGrade = %p",grade,*ptr_grade,&grade,ptr_grade);
+	printf("\n&pAge = %p\t&pCgpa = %p\t&pGrade = %p",&ptr_age,&ptr_cgpa,&ptr_grade);
 	*ptr_age += 1;
 	*ptr_cgpa += 0.25;
 	*ptr_grade += 1;

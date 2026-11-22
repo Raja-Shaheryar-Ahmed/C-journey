@@ -16,7 +16,7 @@ int main(){
 	printf("House rent allowance (20%%):\tPKR %.2f\n",house_rent_allowance);
 	printf("Medical allownace (10%%):\tPKR %.2f\n",medical_allowance);
 	printf("-------------------------------------------\n");
-	printf("Gross salary:\t\t\t%PKR %.2f\n",gross_salary);
+	printf("Gross salary:\t\t\tPKR %.2f\n",gross_salary);
 	printf("Tax deduction (5%%):\t\tPKR %.2f\n",tax_deduction);
 	printf("-------------------------------------------\n");
 	printf("Net payable salary:\tPKR %.2f",net_payable_salary);

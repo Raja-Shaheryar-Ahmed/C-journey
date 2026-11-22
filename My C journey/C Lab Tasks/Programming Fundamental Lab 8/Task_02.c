@@ -18,11 +18,15 @@ void swap(int *x, int *y){
 }
 void sortThree(int *a, int *b, int *c){  
 	printf("\nBefore: %d %d %d",*a,*b,*c);
-	if(*a>*b){  //We passes a instead of &a because the *a in this funtion already contain the address of a which is in main.
+	//We pass a instead of &a because a in this function already contains the address of a in main.
+	if(*a>*b){
 		swap(a,b);
-			if(*a>*c){
-				swap(a,c);
-			}
+	}
+	if(*a>*c){
+		swap(a,c);
+	}
+	if(*b>*c){
+		swap(b,c);
 	}
 	printf("\nAfter: %d %d %d",*a,*b,*c);
 }
