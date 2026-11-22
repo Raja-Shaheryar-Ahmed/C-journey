@@ -6,7 +6,7 @@ int main(){
 		printf("\nEnter radius: ");
 		scanf("%f",&radius);
 		if(radius<0){
-			printf("\nRadius cannote be negative.");
+			printf("\nRadius cannot be negative.");
 		}
 	}while(radius<0);
 	circleInfo(radius,&area,&circumference);

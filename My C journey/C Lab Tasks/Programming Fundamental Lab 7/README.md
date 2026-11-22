@@ -63,7 +63,7 @@ Functions: `toFahrenheit()`, `toCelsius()` and `printTable(start, end, step)`. P
 Start: 0
 End: 40
 Step: 10
-Celsius	Fahrenteit
+Celsius	Fahrenheit
 0	32.00
 10	50.00
 20	68.00

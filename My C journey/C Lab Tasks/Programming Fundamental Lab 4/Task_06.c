@@ -4,11 +4,11 @@ int main(){
 	int b;
 	int c;
 	
-	printf("Enter the side a lenght: ");
+	printf("Enter the side a length: ");
 	scanf("%d",&a);
-	printf("\nEnter the side b lenght: ");
+	printf("\nEnter the side b length: ");
 	scanf("%d",&b);
-	printf("\nEnter the side c lenght: ");
+	printf("\nEnter the side c length: ");
 	scanf("%d",&c);
 	
 	if (a+b>c){

@@ -12,7 +12,7 @@ int main(){
 	do{
 		printf("\n---------BANK ACCOUNT---------\n");
 		printf("\n1. Balance");
-		printf("\n2. Deposite");
+		printf("\n2. Deposit");
 		printf("\n3. Withdraw");
 		printf("\n4. Exit");
 		printf("\nchoice: ");
@@ -52,7 +52,7 @@ void deposit(float *balance,float amount){
 		printf("\nInvalid amount.");
 	}else{
 		*balance = *balance+amount;
-		printf("\nDeposited.");
+		printf("\nDepositd.");
 	}
 }
 int withdraw(float *balance, float amount){

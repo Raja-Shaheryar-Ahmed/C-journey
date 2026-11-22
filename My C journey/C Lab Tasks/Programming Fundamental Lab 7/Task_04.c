@@ -25,8 +25,8 @@ float toCelsius(float f){
 }
 void printTable(int start, int end, int step){
 	int i;
-	float Fahrenteit;
-	printf("\nCelsius\tFahrenteit");
+	float Fahrenheit;
+	printf("\nCelsius\tFahrenheit");
 	for(i=start;i<=end;i+=step){
 		printf("\n%d\t%.2f",i,toFahrenheit(i));
 	}

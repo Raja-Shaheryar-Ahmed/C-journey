@@ -14,7 +14,7 @@ int main(){
 	printf("\tMONTHLY SALARY SLIP\n");
 	printf("Basic salary:\t\t\tPKR %.2f\n",basic_salary);
 	printf("House rent allowance (20%%):\tPKR %.2f\n",house_rent_allowance);
-	printf("Medical allownace (10%%):\tPKR %.2f\n",medical_allowance);
+	printf("Medical allowance (10%%):\tPKR %.2f\n",medical_allowance);
 	printf("-------------------------------------------\n");
 	printf("Gross salary:\t\t\tPKR %.2f\n",gross_salary);
 	printf("Tax deduction (5%%):\t\tPKR %.2f\n",tax_deduction);

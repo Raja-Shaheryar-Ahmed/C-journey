@@ -7,7 +7,7 @@ int main(){
 		printf("\nLocker %d: ",i+1);
 		scanf("%d",&locker[i]);
 	}
-	printf("\nEnter item code to seach: ");
+	printf("\nEnter item code to search: ");
 	scanf("%d",&item);
 	for(i=0;i<10;i++){
 		if(locker[i]==item){
@@ -18,7 +18,7 @@ int main(){
 			empty++;
 		}
 	}
-	printf("\nTotal loakers with this item: %d",total);
+	printf("\nTotal lockers with this item: %d",total);
 	printf("\nEmpty lockers: %d",empty);
 	return 0;
 }

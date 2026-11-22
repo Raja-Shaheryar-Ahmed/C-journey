@@ -41,7 +41,7 @@ int main(){
 	return 0;
 }
 void showMenu(void){
-	printf("\n---MINI MATH TOOKKIT---");
+	printf("\n---MINI MATH TOOLKIT---");
 	printf("\n1. Power");
 	printf("\n2. Factorial");
 	printf("\n3. GCD and LCM");

@@ -32,7 +32,7 @@ Stores an item code for each of 10 lockers (`0` means empty). Searches for a cod
 Item 5 is in locker 1
 Item 5 is in locker 4
 Item 5 is in locker 7
-Total loakers with this item: 3
+Total lockers with this item: 3
 Empty lockers: 3
 ```
 

@@ -25,7 +25,7 @@ All values in this lab are hard-coded in the programs (no user input), so each p
 Stores marks and credit hours for three courses (Programming Fundamentals, Calculus, Applied Physics) and computes the weighted average: `Σ(marks × credit hours) / total credit hours`.
 
 ```text
-	SEMESTER ACEDEMIC REPORT
+	SEMESTER ACADEMIC REPORT
 Course		Credit hour	Obtained marks
 ----------------------------------------------
 Programming fund.	3		88.00

@@ -71,9 +71,9 @@ The year is leap year
 Reads three side lengths, checks the triangle inequality (`a+b>c`, `a+c>b`, `b+c>a`) and, for a valid triangle, classifies it as equilateral, isosceles or scalene.
 
 ```text
-Enter the side a lenght: 3
-Enter the side b lenght: 4
-Enter the side c lenght: 5
+Enter the side a length: 3
+Enter the side b length: 4
+Enter the side c length: 5
 Its a valid triangle
 The triangle is scalene triangle
 ```
