@@ -15,8 +15,8 @@ int main(){
 	float total_weighted_score;
 	int total_CH;
 	float weighted_avg_percentage;
-	total_weighted_score = (88.0 * 3) + (76.5 * 3) + (82.0 * 2);
-	total_CH = 3 + 3 + 2;
+	total_weighted_score = (marks_PF * CH_PF) + (marks_CAL * CH_CAL) + (marks_AP * CH_AP);
+	total_CH = CH_PF + CH_CAL + CH_AP;
 	weighted_avg_percentage = total_weighted_score / total_CH;
 	printf("\tSEMESTER ACADEMIC REPORT\n");
 	printf("Course\t\tCredit hour\tObtained marks\n");

@@ -19,7 +19,7 @@ int main(){
 	sub_total_samosa = (samosa_quant*unit_price_samosa);
 	sub_total_chicken_roll = (chicken_roll_quant*unit_price_chicken_roll);
 	float sub_total;
-	sub_total = (tea_quant*unit_price_tea)+(samosa_quant*unit_price_samosa)+(chicken_roll_quant*unit_price_chicken_roll);
+	sub_total = sub_total_tea + sub_total_samosa + sub_total_chicken_roll;
 	float GST_tax;
 	GST_tax = (0.16*sub_total);
 	float grand_total;

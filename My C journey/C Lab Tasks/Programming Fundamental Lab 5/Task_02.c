@@ -3,7 +3,6 @@ int main(){
 	float price_laptop;
 	float current_savings;
 	float monthly_savings;
-	int i;
 	printf("Enter laptop price: ");
 	scanf("%f",&price_laptop);
 	printf("\nEnter your current savings: ");
@@ -14,6 +13,10 @@ int main(){
 	printf("\nCurrent savings: %.2f",current_savings);
 	printf("\nMonthly savings: %.2f",monthly_savings);
 	int months = 0;
+	if(monthly_savings<=0&&current_savings<price_laptop){
+		printf("\nMonthly savings must be more than 0 to reach the price");
+		return 0;
+	}
 		while(current_savings<price_laptop)
 			{
 				months++;

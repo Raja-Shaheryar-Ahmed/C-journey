@@ -11,42 +11,20 @@ int main(){
 	printf("\nEnter the side c length: ");
 	scanf("%d",&c);
 	
-	if (a+b>c){
-		if (a+c>b){
-			if (c+b>a){
-				printf("\nIts a valid triangle");
-				if (a==b){
-					if (b==c){
-						printf("\nThe triangle is equilateral triangle");
-					}
-					else{
-						printf("\nThe triangle is isosceles triangle");
-					}
-				}
-				else{
-					if (b==c){
-						printf("\nThe triangle is isosceles triangle");
-					}
-					else {
-						if (a==c){
-							printf("\nThe triangle is isosceles triangle");
-						}
-						else{
-							printf("\nThe triangle is scalene triangle");
-						}
-					}
-				}
-			}
-			else{
-				printf("\nNot a valid triangle...!!");
-			}
-		}
-		else{
-			printf("\nNot a valid triangle...!!");
-		}	
-	}
-	else{
+	if (a<=0||b<=0||c<=0||a+b<=c||a+c<=b||b+c<=a){
 		printf("\nNot a valid triangle...!!");
 	}
-
+	else{
+		printf("\nIts a valid triangle");
+		if (a==b&&b==c){
+			printf("\nThe triangle is equilateral triangle");
+		}
+		else if (a==b||b==c||a==c){
+			printf("\nThe triangle is isosceles triangle");
+		}
+		else{
+			printf("\nThe triangle is scalene triangle");
+		}
+	}
+	return 0;
 }

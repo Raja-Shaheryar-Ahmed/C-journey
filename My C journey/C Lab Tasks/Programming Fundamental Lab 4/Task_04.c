@@ -22,18 +22,18 @@ int main(){
 		else{
 			if(x>0){
 				if(y>0){
-					printf("The point is in 1st quadrant");
+					printf("\nThe point is in 1st quadrant");
 				}
 				else{
-					printf("The point is in 4th quadrant");
+					printf("\nThe point is in 4th quadrant");
 				}
 			}
 			else{
 				if(y>0){
-					printf("The point is in 2nd quadrant");
+					printf("\nThe point is in 2nd quadrant");
 				}
 				else{
-					printf("The point is in 3rd quadrant");
+					printf("\nThe point is in 3rd quadrant");
 				}
 			}
 		}

@@ -7,6 +7,10 @@ int main(){
 	scanf("%f",&weight);
 	printf("\nEnter height (m): ");
 	scanf("%f",&height);
+	if(height<=0){
+		printf("\nHeight must be greater than 0");
+		return 0;
+	}
 	BMI = weight/(height*height);
 	
 	printf("\nBMI = %.2f\n",BMI);

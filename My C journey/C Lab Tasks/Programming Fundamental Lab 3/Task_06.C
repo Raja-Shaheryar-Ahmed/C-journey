@@ -9,6 +9,11 @@ int main() {
     printf("\nEnter 2nd integer: ");
     scanf("%d", &b);
 
+    if (b == 0) {
+        printf("\nSecond integer cannot be 0.");
+        return 0;
+    }
+
     float v1, v2, v3;
     v1 = a / b;
     v2 = (float) a / b;

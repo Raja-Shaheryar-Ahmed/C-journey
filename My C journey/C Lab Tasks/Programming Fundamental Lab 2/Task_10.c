@@ -2,9 +2,9 @@
 int main(){
 	double basic_salary = 85000;
 	double house_rent_allowance;
-	float medical_allowance;
+	double medical_allowance;
 	double gross_salary;
-	float tax_deduction;
+	double tax_deduction;
 	double net_payable_salary;
 	house_rent_allowance = (0.20 * basic_salary);
 	medical_allowance = (0.10 * basic_salary);

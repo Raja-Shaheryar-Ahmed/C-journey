@@ -3,9 +3,9 @@ int main(){
 	double principal = 250000.00;
 	float rate = 8.5;
 	int time = 3;
-	float simple_interest = (principal * rate * time)/100.00;
+	double simple_interest = (principal * rate * time)/100.00;
 	double total_amount = principal + simple_interest;
-	float monthly_installment = (total_amount / (time * 12.0));
+	double monthly_installment = (total_amount / (time * 12.0));
 	printf("\tBANK LOAN INTEREST SUMMARY\n");
 	printf("Principal amount:\t%.2f\n",principal);
 	printf("Annual interest rate:\t%.2f%%\n",rate);

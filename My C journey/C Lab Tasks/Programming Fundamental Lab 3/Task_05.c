@@ -13,6 +13,11 @@ int main() {
     printf("\nEnter the value of c: ");
     scanf("%f", &c);
 
+    if (a == 0) {
+        printf("\nThis is not a quadratic equation (a cannot be 0).");
+        return 0;
+    }
+
     float discriminant;
     discriminant = (b * b) - (4 * a * c);
 
